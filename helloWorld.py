@@ -1,10 +1,8 @@
-a = "Hello, World!"
-print(a.upper())
-a = "Hello, World!"
-print(a.lower())
-a = " Hello, World! "
-print(a.strip()) # returns "Hello, World!"
-a = "Hello, World!"
-print(a.replace("H", "J"))
-a = "Hello, World!"
-print(a.split(",")) # returns ['Hello', ' World!']
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
